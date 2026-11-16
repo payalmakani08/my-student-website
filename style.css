@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #e8ddff, #d9efff, #fff0f5);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(120deg, #b8a0df, #92bde0);
+    color: white;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+.navbar {
+    background-color: #62517f;
+}
+
+.navbar .nav-link:hover {
+    color: #ffe6a7;
+}
+
+h2 {
+    color: #5d4a7d;
+}
+
+.main-image {
+    width: 80%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.about-box, .contact-box {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 650px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+.btn-custom {
+    background-color: #756093;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #55436f;
+    color: white;
+}
+
+footer {
+    background-color: #62517f;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .main-image {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+}
